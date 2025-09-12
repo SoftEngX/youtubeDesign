@@ -2,6 +2,12 @@
 .thumbnail {
   width: 100%;
   display: block;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.thumbnail:hover {
+  border-radius: 0px;
 }
 
 
@@ -86,7 +92,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 18px;
-  row-gap: 40px;
+  row-gap: 24px;
 }
 
 @media (min-width: 1000px) {
