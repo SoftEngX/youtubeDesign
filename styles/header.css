@@ -218,7 +218,23 @@
   border-radius: 20px;
 }
 
+.sign__in {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 35px;
+  width: 90px;
+  border-radius: 20px;
+  border: 1px solid rgb(223, 223, 223);
+  background: transparent;
+  color: #2989e8;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: -0.50px;
+}
+
 .current-user-picture {
-  height: 32px;
-  border-radius: 16px;
+  height: 22px;
+  /* border-radius: 16px; */
 }
